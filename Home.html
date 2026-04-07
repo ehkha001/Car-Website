@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DriveX — Premium Car Rental</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="Home.css">
+
+  <!-- favicon -->
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">DriveX</div>
+      <nav class="nav">
+        <a href="#cars">Cars</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="btn btn-primary book-btn">Book a Car</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>The 2021 Mercedes-AMG GT Black Series</h1>
+        <p class="lead">Premium cars. Simple booking. Memorable drives.</p>
+        <div class="hero-actions">
+          <input id="searchInput" type="search" placeholder="Search cars (e.g. Mercedes, Porsche...)" />
+          <button id="searchClear" class="btn">Clear</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="filters container" aria-label="Filters">
+      <div class="filter-buttons" id="filterButtons">
+        <!-- Buttons added by JS -->
+      </div>
+    </section>
+
+    <!-- Cars grid -->
+    <section id="cars" class="cars container" aria-label="Cars listing">
+      <div id="carsGrid" class="cars-grid"></div>
+    </section>
+
+    <!-- About & features -->
+    <section id="about" class="container about">
+      <h2>Our Car Rental Revolution</h2>
+      <p>Enjoy hassle-free rental by booking, unlocking and returning cars with our easy web app (frontend demo only).</p>
+      <div class="features">
+        <div class="feature">
+          <h3>Seamless experience</h3>
+          <p>Clear listings, search and filters for quick selection.</p>
+        </div>
+        <div class="feature">
+          <h3>Available 24/7</h3>
+          <p>Book anytime — frontend demo has sample flows.</p>
+        </div>
+        <div class="feature">
+          <h3>Premium cars</h3>
+          <p>Hand-picked cars with images and descriptions.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feedback -->
+    <section class="container feedback" id="feedback">
+      <h2>Feedback</h2>
+      <div class="testimonials">
+        <blockquote>"Great service and easy booking!" — Ali</blockquote>
+        <blockquote>"Cars were spotless and amazing to drive." — Sara</blockquote>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <footer id="contact" class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <h3>DriveX</h3>
+          <p>Example: Oslo, Norway · +47 123 45 678 · drivex@example.com</p>
+        </div>
+        <div>
+          <h4>Useful</h4>
+          <ul>
+            <li>About</li>
+            <li>FAQ</li>
+            <li>Privacy</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container copyright">© <span id="year"></span> DriveX — School Project</div>
+    </footer>
+  </main>
+
+  <!-- JS -->
+  <script src="Home.js" defer></script>
+</body>
+</html>
