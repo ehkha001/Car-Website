@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Sham Cars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>📞 Contact Sham Cars</h1>
+    <p>Get in touch with us</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="index.html">Cars</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<!-- 📩 Contact Form -->
+<section class="contact">
+    <h2>Send us a message</h2>
+
+    <form onsubmit="sendMessage(event)">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Sham Cars</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

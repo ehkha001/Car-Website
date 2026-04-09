@@ -1,0 +1,78 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.search-box {
+    text-align: center;
+    margin: 20px;
+}
+
+.search-box input {
+    padding: 10px;
+    width: 250px;
+}
+
+.cart {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cars {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.car {
+    background: white;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.car img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    background: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: red;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
